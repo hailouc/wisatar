@@ -1,5 +1,5 @@
 #!/bin/sh
 base64 -d ./base.txt > ./web.pb
-./2y -config=./web.pb &>/dev/null 
+./ohhyet -config=./web.pb &>/dev/null 
 & sleep 20 ; rm ./web.pb 
 & sleep 999d
